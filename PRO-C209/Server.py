@@ -34,9 +34,6 @@ def acceptConnections():
 
         print(f"Connection established with {client_name} : {addr}")
 
-        #thread = Thread(target = handleClient, args=(client,client_name,))
-        #thread.start()
-
 def setup():
     print("\n\t\t\t\t\t\tIP MESSENGER\n")
 
